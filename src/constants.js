@@ -5,6 +5,7 @@ export const LANGUAGE_VERSIONS = {
   Question_4: "15.0.2",
   Question_5: "6.12.0",
   Question_6: "8.2.3",
+  Question_7: "8.2.3",
 
 };
 
@@ -57,7 +58,7 @@ export const CODE_SNIPPETS = {
   //           Add filters to view all tasks, only completed tasks, or only incomplete tasks.
   
   `,
-  Question_5:`
+  Question_5: `
   //  Question:
   //           Implement JWT-based authentication with role-based access control (RBAC) in a MERN stack.\n
   //  Backend:
@@ -69,7 +70,7 @@ export const CODE_SNIPPETS = {
   //           Create a React application with login functionality.
   //           Once logged in, display different content based on the user's role (e.g., an admin dashboard for admins).
     `,
-  Question_6:`
+  Question_6: `
   //  Question:
   //           Implement a file upload system in a MERN stack, with image preview functionality on the frontend.\n
   //  Backend:
@@ -80,5 +81,23 @@ export const CODE_SNIPPETS = {
   //  Frontend:
   //           Create a React form that allows users to upload files.
   //           Display a preview of the selected image before uploading it to the server.
+    `,
+  Question_7: `
+  //  Question:
+  //           Build a React Application with a Simple Login and CRUD Functionality. \n
+  //            
+  //          PART - 1
+  //            Create a login form responsively with two fields: Username and Password.
+  //            Implement basic validation:
+  //            If either field is empty, show an error message.
+  //            Use a hardcoded username and password for simplicity (e.g., admin / password123).
+  //            When the login is successful, store the user's session (e.g., in localStorage) and navigate to the main CRUD page.\n
+
+  //          PART - 2
+  //            Create User , Read Users , Update User , Delete User\n
+
+  //          PART -  3 Session Handling      
+  //            If a user is not logged in, the CRUD page should redirect to the login page.
+  //            Add a Logout button that clears the session and redirects the user to the login page
     `,
 };
